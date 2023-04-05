@@ -8,6 +8,9 @@
                 MAIN
             </h1>
         </div>
+        <div class="container">
+            @dump($comics)
+        </div>
         
     </div>
 
