@@ -5,3 +5,11 @@
 img {
     max-width: 100%;
 }
+
+main {
+    background-color: darkgrey;
+
+    img {
+        filter: drop-shadow(16px 16px 20px rgb(30, 30, 30))
+    }
+}
