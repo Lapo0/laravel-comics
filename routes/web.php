@@ -229,8 +229,39 @@ Route::get('/', function () {
                 ],
             ],
         ],
-        'links' => [  'CHARACTERS',  'COMICS',  'MOVIES',  'TV',  'GAMES',  'COLLECTIBLES',  'VIDEOS',  'FANS',  'NEWS',  'SHOP'],
-        ];
+        'links' => [
+            'CHARACTERS',
+            'COMICS',
+            'MOVIES',
+            'TV',
+            'GAMES',
+            'COLLECTIBLES',
+            'VIDEOS',
+            'FANS',
+            'NEWS',
+            'SHOP'
+        ],
+    ];
 
     return view('welcome', $data);
+});
+
+
+Route::get('/hero', function () {
+
+    $data = [
+        'links' => [
+            'CHARACTERS',
+            'COMICS',
+            'MOVIES',
+            'TV',
+            'GAMES',
+            'COLLECTIBLES',
+            'VIDEOS',
+            'FANS',
+            'NEWS',
+            'SHOP'
+        ],
+    ];
+    return view('hero', $data);
 });
