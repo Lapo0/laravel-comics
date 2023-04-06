@@ -38,6 +38,11 @@
                 &:hover::before, &.active::before {
                 opacity: 1;
                 }
+
+                a {
+                    text-decoration: none;
+                    color: currentColor;
+                }
             }
         }
     }
